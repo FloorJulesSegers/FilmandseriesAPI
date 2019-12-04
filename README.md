@@ -2,6 +2,7 @@
 [The Open Movie Database](http://www.omdbapi.com/)
 
 ## Project-link
+[Film and series API](https://floorjulessegers.github.io/FilmandseriesAPI/)
 
 ## Built with
 
