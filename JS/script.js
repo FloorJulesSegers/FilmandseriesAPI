@@ -22,7 +22,7 @@ input.addEventListener("keyup", function(event) {
 function getInputValue(){
    var inputVal = document.getElementById("myInput").value;
 
-    axios.get(`http://www.omdbapi.com/?t=${inputVal}&apikey=${APIkey}&`)
+    axios.get(`https://www.omdbapi.com/?t=${inputVal}&apikey=${APIkey}&`)
     .then(function (response) {
     title.innerHTML= response.data.Title;
     genre.innerHTML= response.data.Genre;
